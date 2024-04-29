@@ -5,7 +5,7 @@ public class Runner {
 	public static void main(String[] args) throws InvalidTextException {
 		// if offset character is 'B'
 		System.out.println("~~~~~~~~~~~~~~ OFFSET CHARACTER == 'B' ~~~~~~~~~~~~~~~~~~~~~~~");
-		EncodeDecode ed1 = new EncodeDecode('+');
+		EncodeDecode ed1 = new EncodeDecode('B');
 		String res1 = ed1.encode("HELLO WORLD");
 		System.out.println("Encoded Text with offset character 'B': " + res1);		
 		String rev1 = ed1.decode(res1);
